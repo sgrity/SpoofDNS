@@ -1,6 +1,8 @@
 # DNS 放大攻击工具
 
-**功能：**向 DNS 服务器发送伪造源 IP 的请求包，达到放大攻击的效果。（事实上一般路由器回自动修正源 IP ，导致伪造失败，但在某些情况下是有意义的）
+**功能：** 
+
+向 DNS 服务器发送伪造源 IP 的请求包，达到放大攻击的效果。（事实上一般路由器回自动修正源 IP ，导致伪造失败，但在某些情况下是有意义的）
 
 **程序结构：**
 
@@ -18,6 +20,6 @@
 
 Python 3.7 以上版本
 
-scapy 2.4 以上版本
+[scapy](https://scapy.net/) 2.4 以上版本
 
 [tcpreplay](http://tcpreplay.appneta.com/wiki/installation.html#installation)
